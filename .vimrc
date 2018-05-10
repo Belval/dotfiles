@@ -25,4 +25,5 @@ set tabstop=4
 set ai
 set si
 
-
+" Set syntax (color)
+syntax on
