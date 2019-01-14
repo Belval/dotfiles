@@ -1,6 +1,7 @@
 set history=600
 
 set number
+set relativenumber
 
 " Ignore case when searching
 set ignorecase
@@ -27,3 +28,6 @@ set si
 
 " Set syntax (color)
 syntax on
+
+" Set system clipboard a register for yanking
+set clipboard=unnamedplus
