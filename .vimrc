@@ -31,3 +31,10 @@ syntax on
 
 " Set system clipboard a register for yanking
 set clipboard=unnamedplus
+
+" Show matching
+set showmatch
+
+" Set autoread to auto reload from disk
+set autoread
+
