@@ -38,3 +38,5 @@ set showmatch
 " Set autoread to auto reload from disk
 set autoread
 
+" Auto remove trailing whitespaces
+autocmd BufWritePre * %s/\s\+$//e
