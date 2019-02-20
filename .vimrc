@@ -24,7 +24,7 @@ set tabstop=4
 
 " Set autoindent
 set ai
-set si
+filetype indent on
 
 " Set syntax (color)
 syntax on
@@ -40,3 +40,5 @@ set autoread
 
 " Auto remove trailing whitespaces
 autocmd BufWritePre * %s/\s\+$//e
+
+
