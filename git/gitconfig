@@ -1,0 +1,45 @@
+[user]
+        name = Edouard Belval
+        email = edouard@belval.org
+[color]
+        ui = auto
+[push]
+        default = current
+[alias]
+        br = branch
+        ci = commit -s
+        cim = commit -sm
+        cia = commit --amend --no-edit
+        cam = commit -sam
+        co = checkout
+        cp = cherry-pick
+        rb = rebase
+        rbi = rebase -i
+        st = status
+        lppg = log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+        discard = stash --keep-index -u
+        k = !gitk
+        d = diff
+        ds = diff --staged
+        changelog = log --pretty='%x09* %s'
+[merge]
+        conflictstyle = diff3
+[core]
+        excludesfile = ~/.gitignore_global
+[log]
+        follow = true
+[rebase]
+        autosquash = true
+[gui]
+        fontui = -family \"DejaVu Sans\" -size 10 -weight normal -slant roman -underline 0 -overstrike 0
+        fontdiff = -family \"DejaVu Sans Mono\" -size 10 -weight normal -slant roman -underline 0 -overstrike 0
+[rerere]
+        enabled = true
+[pull]
+        rebase = true
+[submodule]
+        recurse = true
+[includeIf "gitdir:~/element/"]
+        path = .gitconfig-element
+[includeIf "gitdir:~/remote-home/element/"]
+        path = .gitconfig-element

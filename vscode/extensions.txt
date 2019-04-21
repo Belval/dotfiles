@@ -1,0 +1,4 @@
+ms-python.python
+ms-vscode.csharp
+PeterJausovec.vscode-docker
+vsmobile.vscode-react-native
