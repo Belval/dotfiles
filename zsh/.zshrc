@@ -1,3 +1,6 @@
+# Source original bashrc
+source ~/.bashrc &> /dev/null
+
 # Set up gpg
 export GPG_TTY="$(tty)"
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
