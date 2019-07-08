@@ -14,3 +14,7 @@ cat vscode/extensions.txt | xargs -L 1 code --install-extension
 
 # zsh
 cp zsh/.zshrc ~/.zshrc
+
+# tmux
+
+cp tmux/.tmux.conf ~/.tmux.conf
