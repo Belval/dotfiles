@@ -41,4 +41,5 @@ set autoread
 " Auto remove trailing whitespaces
 autocmd BufWritePre * %s/\s\+$//e
 
-
+" Tell vim we are using dark theme
+set background=dark
