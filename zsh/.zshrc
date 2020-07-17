@@ -8,7 +8,7 @@ gpgconf --launch gpg-agent
 gpg-connect-agent updatestartuptty /bye
 
 # zsh
-export ZSH="/home/$USER/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 # Using agnoster
 ZSH_THEME="agnoster"
 
