@@ -9,8 +9,8 @@ cp git/.gitconfig ~/
 cp vim/.vimrc ~/.vimrc
 
 # vscode
-cp vscode/settings.json ~/.config/Code/User/
-cat vscode/extensions.txt | xargs -L 1 code --install-extension
+#cp vscode/settings.json ~/.config/Code/User/
+#cat vscode/extensions.txt | xargs -L 1 code --install-extension
 
 # zsh
 cp zsh/.zshrc ~/.zshrc
